@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Me</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Author</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        <h1>Contact Me!</h1>
+    </header>  
+    <main>
+        <form action="index.html" method="POST">
+            <fieldset>
+                <label for="name">Name</label>
+                <input required type="text" placeholder="Enter Your Name" name="name" id="name">
+            </fieldset>
+            <fieldset>
+                <label for="email">Email</label>
+                <input required type="email" placeholder="Enter Your Email" name="email" id="email">
+            </fieldset>
+            <fieldset>
+                <label for="comment">Comment</label>
+                <textarea placeholder="Enter Your Comment Here" name="comment" id="comment" rows="5" cols="10"></textarea>
+            </fieldset>
+            <fieldset>
+                <label>Do you want to get response?</label>
+                <label for="yes">
+                    <input type="radio" name="response" id="yes">
+                    Yes
+                </label>
+                <label for="no">
+                    <input type="radio" name="response" id="no">
+                    No
+                </label>
+            </fieldset>
+                <button type="submit" id="saveBtn">Submit</button>
+        </form>
+        
+    </main>
+</body>
+</html>
